@@ -1,3 +1,3 @@
-# github_venkadaria.github.io
+# venkadaria.github.io
 
 Copyright (c) 2016 Daria Pydorenko

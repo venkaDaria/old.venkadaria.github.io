@@ -1,0 +1,39 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Чёрным по белому
+tagline:             Daria Pydorenko
+paginate:            10
+baseurl:             /
+highlighter:         pygments
+
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Daria Pydorenko
+  email:             venka.daria@gmail.com
+
+# Custom vars
+version:             2.0.0
+github:
+repo:                https://github.com/poole/poole
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+  - jemoji
+  
+# SSL error
+gist:
+  noscript: false
+  
+# Customization
+pages_list:
+  О блоге: '/about'
+  Архив записей: '/archive'
+  Лента: '/atom.xml'

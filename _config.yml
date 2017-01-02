@@ -6,11 +6,10 @@ title:               Чёрным по белому
 tagline:             Daria Pydorenko
 paginate:            10
 baseurl:             ""
-highlighter:         pygments
 
 sass:
   sass_dir:          _sass
-  style:            :compressed
+  style:             :compressed
 
 # About/contact
 author:
@@ -20,7 +19,7 @@ author:
 # Custom vars
 version:             2.0.0
 github:
-repo:                https://github.com/poole/poole
+repo:                https://github.com/venkaDaria
 
 # Gems
 gems:

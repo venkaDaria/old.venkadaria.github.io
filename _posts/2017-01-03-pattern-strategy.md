@@ -3,7 +3,7 @@ layout: post
 title: Паттерн проектирования Strategy
 tags: pattern java
 ---
-    <style>
+<style>
         #playerView {
             position:relative;
             -webkit-tap-highlight-color:rgba(0,0,0,0);
@@ -67,6 +67,4 @@ tags: pattern java
 					start();
 			})();
 		};
-    </script>
-</body>
-</html>
+</script>

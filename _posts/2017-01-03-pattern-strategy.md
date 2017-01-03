@@ -3,10 +3,6 @@ layout: post
 title: Паттерн проектирования Strategy
 tags: pattern java
 ---
-<html style=background-color:#ffffff;>
-<head>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"/><meta name="format-detection" content="telephone=no"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="black"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="msapplication-tap-highlight" content="no"/><title>Паттерн проектирования Strategy</title><link rel="apple-touch-icon-precomposed" href="data/apple-touch-icon.png"/><link rel="shortcut icon" type="image/ico" href="data/favicon.ico"/><style>body {background-color:#ffffff;}#spr0_25988b2d {display:none;}</style>
-
     <style>
         #playerView {
             position:relative;
@@ -45,8 +41,7 @@ tags: pattern java
 		@keyframes preloader_spin { 0% { transform: rotate(0); } 100% { transform: rotate(360deg); }}
 		@-webkit-keyframes preloader_spin { 0% { -webkit-transform: rotate(0);}	100% { -webkit-transform: rotate(360deg);} }
     </style>
-</head>
-<body>
+
 	<div id="preloader"></div>
 	<script src="data/player.js?A8AA1BAA"></script>
     <div id="content"></div>

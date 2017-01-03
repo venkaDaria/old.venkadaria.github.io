@@ -1,12 +1,11 @@
 # Permalinks
 permalink:           pretty
-relative_permalinks: true
 
 # Setup
 title:               Чёрным по белому
 tagline:             Daria Pydorenko
 paginate:            10
-baseurl:             ""
+baseurl:             "/"
 
 # About/contact
 author:

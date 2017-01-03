@@ -50,7 +50,7 @@ tags: pattern java
 href='http://www.ispring.ru/' title='Программы для создания дистанционных курсов'>
 iSpring - программы для дистанционного обучения</a></div><div id="spr0_25988b2d"></div>
 <script>
-		if (!ispring.compatibility.performRedirectIfNeeded("data/html5-unsupported.html"))
+		if (!ispring.compatibility.performRedirectIfNeeded("_posts/data/html5-unsupported.html"))
 		{
 			(function(startup){
 				function start(savedPresentationState)

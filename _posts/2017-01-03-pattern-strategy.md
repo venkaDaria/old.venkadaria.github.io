@@ -43,14 +43,14 @@ tags: pattern java
 </style>
 
 <div id="preloader"></div>
-<script src="data/player.js?A8AA1BAA"></script>
+<script src="/_posts/data/player.js?A8AA1BAA"></script>
 <div id="content"></div>
 <div id='link' style='position: absolute; text-align: center; width: 100%;'>
 <a target='_blank' style='font-family: verdana; font-size: 11px; color: #0000CC;' 
 href='http://www.ispring.ru/' title='Программы для создания дистанционных курсов'>
 iSpring - программы для дистанционного обучения</a></div><div id="spr0_25988b2d"></div>
 <script>
-		if (!ispring.compatibility.performRedirectIfNeeded("_posts/data/html5-unsupported.html"))
+		if (!ispring.compatibility.performRedirectIfNeeded("/_posts/data/html5-unsupported.html"))
 		{
 			(function(startup){
 				function start(savedPresentationState)

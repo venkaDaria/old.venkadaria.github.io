@@ -1,15 +1,12 @@
 # Permalinks
 permalink:           pretty
+relative_permalinks: true
 
 # Setup
 title:               Чёрным по белому
 tagline:             Daria Pydorenko
 paginate:            10
 baseurl:             ""
-
-sass:
-  sass_dir:          _sass
-  style:             :compressed
 
 # About/contact
 author:
@@ -19,7 +16,7 @@ author:
 # Custom vars
 version:             2.0.0
 github:
-repo:                https://github.com/venkaDaria
+  repo:                https://github.com/venkaDaria
 
 # Gems
 gems:

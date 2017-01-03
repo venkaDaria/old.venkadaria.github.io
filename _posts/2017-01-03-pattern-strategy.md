@@ -40,13 +40,16 @@ tags: pattern java
 		}
 		@keyframes preloader_spin { 0% { transform: rotate(0); } 100% { transform: rotate(360deg); }}
 		@-webkit-keyframes preloader_spin { 0% { -webkit-transform: rotate(0);}	100% { -webkit-transform: rotate(360deg);} }
-    </style>
+</style>
 
-	<div id="preloader"></div>
-	<script src="data/player.js?A8AA1BAA"></script>
-    <div id="content"></div>
-    <div id='link' style='position: absolute; text-align: center; width: 100%;'><a target='_blank' style='font-family: verdana; font-size: 11px; color: #0000CC;' href='http://www.ispring.ru/' title='Программы для создания дистанционных курсов'>iSpring - программы для дистанционного обучения</a></div><div id="spr0_25988b2d"></div>
-    <script>
+<div id="preloader"></div>
+<script src="data/player.js?A8AA1BAA"></script>
+<div id="content"></div>
+<div id='link' style='position: absolute; text-align: center; width: 100%;'>
+<a target='_blank' style='font-family: verdana; font-size: 11px; color: #0000CC;' 
+href='http://www.ispring.ru/' title='Программы для создания дистанционных курсов'>
+iSpring - программы для дистанционного обучения</a></div><div id="spr0_25988b2d"></div>
+<script>
 		if (!ispring.compatibility.performRedirectIfNeeded("data/html5-unsupported.html"))
 		{
 			(function(startup){

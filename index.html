@@ -34,18 +34,24 @@ title: Home
 
 <div class="pagination">
   {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">
+	<img src="{{ site.baseurl }}public/left.png" class="up" alt="Older" />
+	</a>
   {% else %}
-    <span class="pagination-item older">Older</span>
+	<img src="{{ site.baseurl }}public/left.png" class="up" alt="Older" />
   {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+      <a class="pagination-item newer" href="{{ site.baseurl }}">
+	  <img src="{{ site.baseurl }}public/right.png" class="up" alt="Newer" />
+	  </a>
     {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">
+	  <img src="{{ site.baseurl }}public/right.png" class="up" alt="Newer" />
+	  </a>
     {% endif %}
   {% else %}
-    <span class="pagination-item newer">Newer</span>
+    <img src="{{ site.baseurl }}public/right.png" class="up" alt="Newer" />
   {% endif %}
 </div>
 

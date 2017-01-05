@@ -466,6 +466,10 @@ a.pagination-item:hover {
   font-size: 0.625rem;
 }
 
+.tag-box a:hover {
+  background-color: limegreen;
+}
+
 .signed-image
 {
   color: #999;

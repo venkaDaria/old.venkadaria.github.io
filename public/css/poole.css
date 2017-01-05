@@ -357,6 +357,8 @@ tbody tr:nth-child(odd) th {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   color: #ccc;
   text-align: left;
+  width: 50%;
+  float: left;
 }
 
 #right {

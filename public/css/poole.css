@@ -465,7 +465,7 @@ a.pagination-item:hover {
 }
 	
 #scrollup img {
-	width: 100%	
+	max-width: 200%	
 }
 
 /* image slider style */

@@ -1,8 +1,3 @@
-.up {
-	width: 30px;
-	height: auto;
-}
-
 /* ----------------- */
 
 * {
@@ -197,9 +192,9 @@ blockquote p:last-child {
   }
 }
 
-img {
+img {	
   vertical-align: middle;
-  max-width: 100%;
+  max-width: 10%;
   margin: 0 0 1rem;
   border-radius: 5px;
 }
@@ -361,7 +356,11 @@ tbody tr:nth-child(odd) th {
   margin-right: -1rem;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   color: #ccc;
-  text-align: center;
+  text-align: left;
+}
+
+#right {
+  text-align: right;
 }
 
 /* Pagination items can be `span`s or `a`s */

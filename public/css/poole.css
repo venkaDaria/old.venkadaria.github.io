@@ -376,6 +376,10 @@ tbody tr:nth-child(odd) th {
   border-radius: 3px;
 }
 
+.pagination:hover {
+	background-color: whitesmoke;
+}
+
 .pagination2 {
   min-width: 4%;
   float: left;

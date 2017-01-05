@@ -194,7 +194,7 @@ blockquote p:last-child {
 
 img {	
   vertical-align: middle;
-  max-width: 10%;
+  max-width: 20%;
   margin: 0 0 1rem;
   border-radius: 5px;
 }

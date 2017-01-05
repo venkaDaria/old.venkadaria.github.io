@@ -463,6 +463,10 @@ a.pagination-item:hover {
     display: none;
     cursor: pointer;
 }
+	
+#scrollup img {
+	width: 100%	
+}
 
 /* image slider style */
 

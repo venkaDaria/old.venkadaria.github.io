@@ -8,6 +8,6 @@ title: О блоге
 
 Приятного чтения!
 
-[![Github]({{ site.baseurl }}public/github.png/50x50)](https://github.com/venkaDaria)
+[![Github]({{ site.baseurl }}public/github.png)](https://github.com/venkaDaria)
 
-[![Goodreads]({{ site.baseurl }}public/goodreads.ico/50x50)](https://www.goodreads.com/user/show/62838956-daria-pydorenko)
+[![Goodreads]({{ site.baseurl }}public/goodreads.ico)](https://www.goodreads.com/user/show/62838956-daria-pydorenko)

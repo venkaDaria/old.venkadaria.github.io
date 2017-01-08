@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: О блоге
 ---
 
 Блог про всё и обо всём.

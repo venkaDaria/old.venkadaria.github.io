@@ -31,6 +31,7 @@ body {
 
 .footer {
 	padding: 5px;
+	float: left;
 }
 
 /* No `:visited` state is required by default (browsers will use `a`) */
@@ -264,8 +265,8 @@ tbody tr:nth-child(odd) th {
 
 .container {
   max-width: 45rem;
-  padding-left:  5rem;
-  padding-right: 5rem;
+  padding-left:  4rem;
+  padding-right: 4rem;
   margin-left:  auto;
   margin-right: auto;
   margin-bottom: 0px;
@@ -374,13 +375,11 @@ tbody tr:nth-child(odd) th {
 
 .pagination {
   overflow: hidden; /* clearfix */
-  margin-left: -1rem;
-  margin-right: -1rem;
-  text-align: left;
-  width: 48%;
+  text-align: left;  
   float: left;
   border: 0.5px solid #2F4F4F;
   border-radius: 3px;
+  width: 48%;
 }
 
 .pagination:hover {
@@ -388,7 +387,7 @@ tbody tr:nth-child(odd) th {
 }
 
 .pagination2 {
-  width: 10rem;
+  width: 4%;
   float: left;
 }
 

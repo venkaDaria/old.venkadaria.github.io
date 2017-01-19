@@ -388,7 +388,7 @@ tbody tr:nth-child(odd) th {
 }
 
 .pagination2 {
-  min-width: 4%;
+  width: 10rem;
   float: left;
 }
 

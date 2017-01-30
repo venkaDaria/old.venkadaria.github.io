@@ -207,7 +207,6 @@ img {
   vertical-align: middle;
   max-width: 700px;
   min-width: 50px;
-  min-height: 50px;
   height: auto;
 }
 
@@ -397,8 +396,6 @@ tbody tr:nth-child(odd) th {
 /* Pagination items can be `span`s or `a`s */
 .pagination-item {
   display: block;
-  padding: 1rem;
-  border: 1px solid #eee;
 }
 .pagination-item:first-child {
   margin-bottom: -1px;

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Видео по программированию от devcolibri
-tags: youtube
+tags: youtube java kotlin android git
 ---
 
 Хорошие обучающие видео по Java, Android, Kotlin и многое другое.

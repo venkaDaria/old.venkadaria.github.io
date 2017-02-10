@@ -1,6 +1,6 @@
 ---
 layout: post
-title: История языка программирования Haskell
+title: Haskell
 tags: history haskell
 ---
 
@@ -40,13 +40,13 @@ Haskell принадлежит к семейству языков ML.
 
 ## Пример кода (Helloworld)
 
-```
+```haskell
 main = putStrLn "Hello, World!"
 ```
 
 ## Пример кода (вычисление факториала)
 
-```
+```haskell
 fac :: Integer -> Integer
 fac 0 = 1
 fac n | n > 0 = n * fac (n - 1)

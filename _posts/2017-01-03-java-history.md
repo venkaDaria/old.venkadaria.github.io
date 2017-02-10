@@ -1,6 +1,6 @@
 ---
 layout: post
-title: История языка программирования Java
+title: Java
 tags: history java
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New Telegram Bot
-tags: telegram
+tags: telegram github-pages
 ---
 
 У блога появился свой бот в Телеграме. 

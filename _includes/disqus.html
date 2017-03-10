@@ -1,4 +1,9 @@
 <div id="disqus_thread"></div>
+
+<div class="container-example">
+    <div id="social-1"></div>
+</div>
+
 <script type="text/javascript">
     var disqus_shortname = 'venkadaria'; 
     (function() {
@@ -9,23 +14,15 @@
         (document.getElementsByTagName('head')[0] 
 		|| document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-<div class="container-example">
-    <div id="social-1"></div>
-</div>
-<script>
-    document.addEventListener('DOMContentLoaded', DOMready);
+	
+	document.addEventListener('DOMContentLoaded', DOMready);
     function DOMready() {
       var options = {
         services: ['vkontakte', 'facebook', 'googleplus', 'odnoklassniki', 'twitter', 'lj', 'moimir', 'linkedin'],
         id: 'social-1',
         counter: true,
         components: ['icon', 'count'],
-        url: '',
         title: 'Рассказать',
-        image: '',
         callbacks: {
           create: function(data) {
             console.log('create self', data.self);
@@ -40,3 +37,4 @@
       new SocialButtons(options);
     }
 </script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>

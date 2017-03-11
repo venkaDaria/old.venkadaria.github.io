@@ -19,13 +19,12 @@
         </h3>
       </div>
 	  
+		<label for="search" class="sr-only">Search</label>
 		<form action="/search.html" method="get" class="search-form">
-			<div class="form-group has-feedback">
-				<label for="search" class="sr-only">Search</label>
+			<div class="form-group has-feedback">				
 				<input type="text" class="form-control" name="search" id="search" placeholder="search">
 				<span class="glyphicon glyphicon-search form-control-feedback"></span>
 			</div>
-		  <input type="submit" value="search">
 		</form>
 		<br/>
       {{ content }}

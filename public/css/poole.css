@@ -562,14 +562,15 @@ tbody tr:nth-child(odd) th {
 	visibility: hidden
 }
 
-.form-control:active {
+.form-control:hover {
 	visibility: visible
 }
 
 .search-img {
+	margin-top: - 20px;
 	visibility: visible
 }
 
-.search-img:active {
+.search-img:hover {
 	visibility: hidden
 }

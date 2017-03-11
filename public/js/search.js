@@ -30,7 +30,7 @@
     }
   }
 
-var searchTerm = document.getElementById('search-box').value;
+var searchTerm = var myParam = location.search.split('search=')[1]
 	if (searchTerm) {
 	// Initalize lunr with the fields it will be searching on. I've given title
 	// a boost of 10 to indicate matches on this field are more important.

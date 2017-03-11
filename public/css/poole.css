@@ -556,5 +556,12 @@ tbody tr:nth-child(odd) th {
 }
 
 .form-control {
+	padding: 2px;
 	height: 34px;
+	font-size: 16px;
+	overflow: hidden
+}
+
+.form-control:focus {
+	overflow: visible
 }

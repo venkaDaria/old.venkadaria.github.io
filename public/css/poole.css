@@ -562,7 +562,7 @@ tbody tr:nth-child(odd) th {
 	visibility: hidden
 }
 
-.form-control:focus {
+.form-control:active {
 	visibility: visible
 }
 
@@ -570,6 +570,6 @@ tbody tr:nth-child(odd) th {
 	visibility: visible
 }
 
-.search-img:focus {
+.search-img:active {
 	visibility: hidden
 }

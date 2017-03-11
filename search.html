@@ -5,7 +5,7 @@ title: Search
 <ul id="search-results"></ul>
 
 <script>
-  window.store = {
+  var store = {
     {% for post in site.posts %}
       "{{ post.url | slugify }}": {
         "title": "{{ post.title | xml_escape }}",

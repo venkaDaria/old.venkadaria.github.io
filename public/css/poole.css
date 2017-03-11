@@ -558,18 +558,11 @@ tbody tr:nth-child(odd) th {
 .form-control {
 	padding: 4px;
 	height: 34px;
+	width: 100%;
 	font-size: 16px;
 	display: none;
 }
 
 .form-control:hover {
-	 display: visible;
-}
-
-.search-img {
-	margin-top: - 20px;
-}
-
-.search-img:hover {
-	display: none;
+	display: visible;
 }

@@ -521,22 +521,7 @@ tbody tr:nth-child(odd) th {
   box-shadow: none;
   display:block;
 }
-.search-form .form-group input.form-control::-webkit-input-placeholder {
-  display: none;
-}
-.search-form .form-group input.form-control:-moz-placeholder {
-  /* Firefox 18- */
-  display: none;
-}
-.search-form .form-group input.form-control::-moz-placeholder {
-  /* Firefox 19+ */
-  display: none;
-}
-.search-form .form-group input.form-control:-ms-input-placeholder {
-  display: none;
-}
-.search-form .form-group:hover,
-.search-form .form-group.hover {
+.search-form .form-group{
   width: 100%;
   border-radius: 4px 25px 25px 4px;
 }
@@ -561,8 +546,4 @@ tbody tr:nth-child(odd) th {
 	width: 100%;
 	font-size: 16px;
 	display: none;
-}
-
-.form-control:hover {
-	display: visible;
 }

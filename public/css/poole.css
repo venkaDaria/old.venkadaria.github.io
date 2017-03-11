@@ -554,3 +554,7 @@ tbody tr:nth-child(odd) th {
   left: initial;
   font-size: 14px;
 }
+
+.form-control {
+	height: 34px;
+}

@@ -13,11 +13,8 @@
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] 
 		|| document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-	
-	document.addEventListener('DOMContentLoaded', DOMready);
-    function DOMready() {
-      var options = {
+		
+		var options = {
         services: ['vkontakte', 'facebook', 'googleplus', 'odnoklassniki', 'twitter', 'lj', 'moimir', 'linkedin'],
         id: 'social-1',
         counter: true,
@@ -35,6 +32,6 @@
         }
       };
       new SocialButtons(options);
-    }
+    })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>

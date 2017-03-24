@@ -23,7 +23,7 @@ html {
 
 body {
   color: #515151;
-  background-image: url(../bg.png);
+  background-color: gainsboro;
   background-size: cover;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
@@ -262,7 +262,7 @@ tbody tr:nth-child(odd) th {
  */
 
 .container {
-  max-width: 45rem;
+  max-width: 55rem;
   padding-left:  4rem;
   padding-right: 4rem;
   margin-left:  auto;
@@ -270,9 +270,8 @@ tbody tr:nth-child(odd) th {
   margin-bottom: 0px;
   background-color: white;
   border-bottom: 8px solid #2F4F4F;
-  border-right: 0.5px solid #2F4F4F;
-  border-left: 0.5px solid #2F4F4F;
-  border-style: none solid double solid;
+  border-style: none none double none;
+  box-shadow: 0px 0px 14px 0px #2F4F4F;
 }
 
 
@@ -503,3 +502,52 @@ tbody tr:nth-child(odd) th {
 .jssora05r:hover { background-position: -190px -40px; }
 .jssora05l.jssora05ldn { background-position: -250px -40px; }
 .jssora05r.jssora05rdn { background-position: -310px -40px; }
+
+.search-form .form-group {
+  float: right !important;
+  transition: all 0.35s, border-radius 0s;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+}
+.search-form .form-group input.form-control {
+  padding-right: 20px;
+  border: 0 none;
+  background: transparent;
+  box-shadow: none;
+  display:block;
+}
+.search-form .form-group{
+  width: 100%;
+  border-radius: 4px 25px 25px 4px;
+}
+.search-form .form-group span.form-control-feedback {
+  position: absolute;
+  top: -1px;
+  right: -2px;
+  z-index: 2;
+  display: block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  color: #3596e0;
+  left: initial;
+  font-size: 14px;
+}
+
+.form-control {
+	padding: 4px;
+	height: 34px;
+	width: 100%;
+	font-size: 16px;
+	display: none;
+}
+
+.search {
+	outline: 0 !important;
+	outline-offset: 0 !important;
+}

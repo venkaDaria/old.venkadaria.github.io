@@ -1,4 +1,9 @@
 <div id="disqus_thread"></div>
+
+<div class="container-example">
+    <div id="social-1"></div>
+</div>
+
 <script type="text/javascript">
     var disqus_shortname = 'venkadaria'; 
     (function() {
@@ -8,6 +13,27 @@
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] 
 		|| document.getElementsByTagName('body')[0]).appendChild(dsq);
+		
+		var options = {
+        services: ['vkontakte', 'facebook', 'googleplus', 'odnoklassniki', 'twitter', 'lj', 'moimir', 'linkedin'],
+        id: 'social-1',
+        counter: true,
+		url: document.URL,
+        components: ['icon', 'count'],
+		theme: 'color',
+        title: 'Рассказать',
+        callbacks: {
+          create: function(data) {
+            console.log('create self', data.self);
+            console.log('create options', data.options);
+          },
+          share: function(data) {
+            console.log('share self', data.self);
+            console.log('share service', data.service);
+          }
+        }
+      };
+      new SocialButtons(options);
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>

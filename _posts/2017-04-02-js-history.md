@@ -27,7 +27,7 @@ JavaScript - реализация языка ECMAScript.
 ```javascript
 alert('Привет, Мир')
 
-console.log(''Hello world')
+console.log('Hello world')
 ```
 
 Программы на языке JavaScript можно вставить в любое место HTML при помощи тега SCRIPT. 
@@ -48,5 +48,5 @@ alert( str.repeat(times) ); // hellohello, метод repeat
 
 ## Ссылки:
 - [Учебник](https://learn.javascript.ru/)
-- [Глава по ES-2015])(https://learn.javascript.ru/es-modern-usage)
+- [Глава по ES-2015](https://learn.javascript.ru/es-modern-usage)
 - [Всё, что надо знать о точке с запятой](https://habrahabr.ru/post/111563/)

@@ -66,7 +66,7 @@ var searchTerm = location.search.split('search=')[1]
 	// Initalize lunr with the fields it will be searching on. I've given title
 	// a boost of 10 to indicate matches on this field are more important.
 	var idx = lunr(function () {
-	  this.use(lunr.ru);
+	  //this.use(lunr.ru);
 	  this.field('id');
 	  this.field('title', { boost: 10 });
 	  this.field('author');

@@ -17,6 +17,7 @@ title: Search
       {% unless forloop.last %},{% endunless %}
     {% endfor %}
   };
+  
   function displaySearchResults(results, store) {
     var searchResults = document.getElementById('search-results');
 
@@ -60,13 +61,31 @@ title: Search
 	  {% unless forloop.last %},{% endunless %}
 	{% endfor %}
   };
-  
+
+var trimmerEnRu = function (token) {
+  return token
+    .replace(/^[^\wа-яёА-ЯЁ]+/, '')
+    .replace(/[^\wа-яёА-ЯЁ]+$/, '');
+};
+
+lunr.Pipeline.registerFunction(trimmerEnRu, 'trimmer-enru');
+
+lunr.stopWordFilter.stopWords =
+  lunr.stopWordFilter.stopWords.union(
+    lunr.ru.stopWordFilter.stopWords);
+ 
 var searchTerm = location.search.split('search=')[1]
 	if (searchTerm) {
 	// Initalize lunr with the fields it will be searching on. I've given title
 	// a boost of 10 to indicate matches on this field are more important.
 	var idx = lunr(function () {
-	  //this.use(lunr.ru);
+	  this.pipeline.reset();
+	  this.pipeline.add(
+		trimmerEnRu,
+		lunr.stopWordFilter,
+		lunr.stemmer,
+		lunr.ru.stemmer
+	  );
 	  this.field('id');
 	  this.field('title', { boost: 10 });
 	  this.field('author');

@@ -69,10 +69,6 @@ var trimmerEnRu = function (token) {
 };
 
 lunr.Pipeline.registerFunction(trimmerEnRu, 'trimmer-enru');
-
-lunr.stopWordFilter.stopWords =
-  lunr.stopWordFilter.stopWords.union(
-    lunr.ru.stopWordFilter.stopWords);
  
 var searchTerm = location.search.split('search=')[1]
 	if (searchTerm) {

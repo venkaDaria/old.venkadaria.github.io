@@ -7,13 +7,13 @@ tags: go rust history
 ## Go
 Go (часто также Golang) — компилируемый многопоточный язык программирования, разработанный компанией Google.
 
-go run hello-world.go
+*$ go run hello-world.go*
 
 или:
 
-go build hello-world.go
+*$ go build hello-world.go*
 
-hello-world
+*$ hello-world*
 
 ```go
 package main
@@ -32,17 +32,17 @@ Rust - язык программирования от Mozilla, поддержи�
 
 Появился в 2010г.
 
-$ mkdir ~/projects
+*$ mkdir ~/projects*
 
-$ cd ~/projects
+*$ cd ~/projects*
 
-$ mkdir hello_world
+*$ mkdir hello_world*
 
-$ cd hello_world
+*$ cd hello_world*
 
-$ rustc main.rs
+*$ rustc main.rs*
 
-$ main
+*$ main*
 
 Привет, мир!
 

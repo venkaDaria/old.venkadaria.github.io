@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Собеседование: Java Trainee
+title: Собеседование Java Trainee
 tags: java
 ---
 

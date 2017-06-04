@@ -4,8 +4,7 @@ title: Собеседование: Java Trainee
 tags: java
 ---
 
-## 
-Взяли в GlobalLogic на Java Trainee)
+## Взяли в GlobalLogic на Java Trainee)
 
 Из интересного, о чём спрашивали:
 - [ClassLoader](https://habrahabr.ru/post/103830/);

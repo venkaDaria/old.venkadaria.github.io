@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java: интересное
+title: Немного о Java
 tags: java
 ---
 

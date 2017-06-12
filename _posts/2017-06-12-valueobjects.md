@@ -6,8 +6,7 @@ tags: java
 
 ## Двунаправленная связь в Java
 
-[Замена однонаправленной связи двунаправленной]
-(https://refactoring.guru/ru/change-unidirectional-association-to-bidirectional)
+[Замена однонаправленной связи двунаправленной](https://refactoring.guru/ru/change-unidirectional-association-to-bidirectional)
 
 ## ValueObject in Java
 

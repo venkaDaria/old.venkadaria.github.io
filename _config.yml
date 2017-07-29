@@ -15,20 +15,23 @@ author:
 # Custom vars
 version:             2.0.0
 github:
-  repo:                https://github.com/venkaDaria
+  repo:              https://github.com/venkaDaria
 
 # Gems
 gems:
   - jekyll-paginate
   - jekyll-gist
   - jemoji
-  
+
 # SSL error
 gist:
   noscript: false
-  
+
 # Customization
 pages_list:
   О блоге: '/about'
   Архив записей: '/archive'
   Лента: '/atom.xml'
+
+# for related post
+related_posts_max : 6

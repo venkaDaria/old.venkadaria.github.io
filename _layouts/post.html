@@ -19,6 +19,18 @@ layout: default
     </ul>
   </span>
   {{ content }}
+
+  {% if page.video %}
+  <iframe width="768" height="432" frameborder="0"
+    src="{{ page.video }}" allowfullscreen>
+  </iframe>
+  {% endif %}
+
   <br />
   {% include disqus.html %}
+
+  <h4>Смотрите также: </h4>
+  <ul>
+    {% include related_posts.html %}
+  </ul>
 </div>

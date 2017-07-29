@@ -1,0 +1,37 @@
+{% comment %}
+<!--
+The related_posts include is a listing helper for related posts
+Usage;
+  1) Tweak related_posts_max in _config.yml
+  2) include related_posts
+  example :
+    <ul>
+      {% include related_posts %}
+    </ul>
+
+    This helper can be seen in use at: ../_layouts/post.html
+-->
+{% endcomment %}
+
+{% assign tags_list = page.tags | sort %}
+{% assign max_count = site.related_posts_max %}
+{% assign count = 1 %}
+{% for post in site.posts %}
+{% assign index_post = forloop.index %}
+{% assign post_tags = post.tags | sort %}
+   {% if count <= max_count %}
+     {% if tags_list == post_tags %}
+       {% if post.title != page.title %}
+       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+       {% assign count = count | plus:'1' %}
+       {% endif %}
+     {% else %}
+      {% for cat in post_tags %}
+        {% if cat == tags_list[forloop.index0] %}
+           <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% assign count = count | plus:'1' %}
+        {% endif %}
+      {% endfor %}
+     {% endif %}
+   {% endif %}
+{% endfor %}

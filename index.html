@@ -34,14 +34,14 @@ title: Home
 
 
 {% if paginator.next_page %}
-	<a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">
+	<a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">
 		<div class="pagination">
-			<img src="{{ site.baseurl }}public/left.png" class="my" alt="Older" />
+			<img src="{{ site.baseurl }}/public/left.png" class="my" alt="Older" />
 		</div>
 	</a>
 	{% else %}
 	<div class="pagination">
-		<img src="{{ site.baseurl }}public/left2.png" class="my" alt="Older" />
+		<img src="{{ site.baseurl }}/public/left2.png" class="my" alt="Older" />
 	</div>
 {% endif %}
 
@@ -50,15 +50,15 @@ title: Home
 </div>
 {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">
+      <a class="pagination-item newer" href="{{ site.baseurl }}/">
 		<div class="pagination" id="right">
-			<img src="{{ site.baseurl }}public/right.png" class="my" alt="Newer" />
+			<img src="{{ site.baseurl }}/public/right.png" class="my" alt="Newer" />
 		</div>
 	  </a>
     {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">
+      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">
 		<div class="pagination" id="right">
-			<img src="{{ site.baseurl }}public/right.png" class="my"  alt="Newer" />
+			<img src="{{ site.baseurl }}/public/right.png" class="my"  alt="Newer" />
 		</div>
 	  </a>
     {% endif %}

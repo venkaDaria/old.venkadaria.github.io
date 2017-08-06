@@ -14,5 +14,7 @@ title: О блоге
 [![Facebook]({{ site.baseurl }}/public/img/facebook.png)](https://www.facebook.com/venkaDaria)
 
 E-mail: venka.daria@gmail.com
+
 Skype: Daria Pydorenko
+
 Telegram: @venka_daria

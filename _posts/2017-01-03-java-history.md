@@ -12,16 +12,16 @@ Sun Microsystems, которую в дальнейшем купила Oracle.
 Java. Вначале, собирались назвать Oak (Дуб), но такое слово
 уже использовалось в качестве имени другого языка программирования.
 
-![]({{ site.baseurl }}public/img/2017-01-03/oak.png)
+![]({{ site.baseurl }}/public/img/2017-01-03/oak.png)
 
 Поэтому назвали Java (как кофе Ява).
 В основу разрабатываемого языка лёг C++.
 Расширения файлов: .java
 
-![]({{ site.baseurl }}public/img/2017-01-03/java.png)
+![]({{ site.baseurl }}/public/img/2017-01-03/java.png)
 
 ###### А вот и Дюк, талисман Java.
-![]({{ site.baseurl }}public/img/2017-01-03/duke.png)
+![]({{ site.baseurl }}/public/img/2017-01-03/duke.png)
 
 ###### Девиз: Написано однажды — работает везде.
 

@@ -5,7 +5,7 @@ permalink:           pretty
 title:               Чёрным по белому
 tagline:             Daria Pydorenko
 paginate:            10
-baseurl:             ""
+baseurl:             "/old_blog"
 
 # About/contact
 author:

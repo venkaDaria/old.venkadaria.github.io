@@ -22,7 +22,7 @@ title: Home
             {% assign sortedtags = tags | split:' ' | sort %}
 
             {% for tag in sortedtags %}
-                <li><a href="/tags#{{ tag | cgi_escape }}">{{ tag }}</a></li>
+                <li><a href="{{ site.baseurl }}/tags#{{ tag | cgi_escape }}">{{ tag }}</a></li>
             {% endfor %}
        </ul>
    </span>
@@ -64,6 +64,6 @@ title: Home
     {% endif %}
   {% else %}
 	<div class="pagination" id="right">
-		<img src="{{ site.baseurl }}public/right2.png" class="my" alt="Newer" />
+		<img src="{{ site.baseurl }}/public/right2.png" class="my" alt="Newer" />
 	</div>
 {% endif %}

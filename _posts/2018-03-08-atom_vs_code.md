@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Atom & VS Code
+title: Atom &amp; VS Code
 tags: editor app
 ---
 Никак не могу выбрать между ними)

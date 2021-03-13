@@ -15,7 +15,7 @@ author:
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/venkaDaria
+  repo:              https://github.com/venkaDaria/old_blog
 
 # Gems
 gems:
@@ -29,9 +29,9 @@ gist:
 
 # Customization
 pages_list:
-  О блоге: '/about'
-  Архив записей: '/archive'
-  Лента: '/atom.xml'
+  О блоге: '/old_blog/about'
+  Архив записей: '/old_blog/archive'
+  Лента: '/old_blog/atom.xml'
 
 # for related post
 related_posts_max : 6
